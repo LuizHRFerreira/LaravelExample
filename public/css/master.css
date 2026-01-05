@@ -1,0 +1,30 @@
+.dt-button {
+    border-radius: 6px;
+    background-color: #0b5ed7;
+    color: white;
+    border: 0px;
+    padding: 5px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.dataTables_wrapper {
+    width: 100%;
+}
+
+table.dataTable {
+    width: 100% !important;
+}
+
+.dataTable tr:nth-child(odd) {
+    background-color: white;
+}
+
+.dataTable tr:nth-child(even) {
+    background-color: green;
+    color: white; /* Muda a cor do texto para branco para melhor contraste */
+}
